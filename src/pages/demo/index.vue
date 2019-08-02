@@ -1,27 +1,27 @@
 <template>
-  <div class="page-demo">
-    <h2>DemoShow</h2>
-    <div class="demo-item">
-        <h3>组件自定义v-model</h3>
-        <VModel v-model="txt" />
-        <div>父txt: {{txt}}</div>
+    <div class="page-demo">
+        <h2>DemoShow</h2>
+        <div class="demo-item">
+            <h3>组件自定义v-model</h3>
+            <VModel v-model="txt" />
+            <div>父txt: {{txt}}</div>
+        </div>
     </div>
-  </div>
 </template>
 
 <script>
-import VModel from '@/components/demo/vModel.vue'
-export default {
-  name: 'DemoShow',
-  components: {
-    VModel
-  },
-  data () {
-    return {
-      txt: '20'
+    import VModel from '@/components/demo/vModel.vue'
+    export default {
+        name: 'DemoShow',
+        components: {
+            VModel
+        },
+        data () {
+            return {
+                txt: '20'
+            }
+        }
     }
-  }
-}
 </script>
 
 <style scoped>

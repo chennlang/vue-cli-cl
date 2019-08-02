@@ -1,8 +1,8 @@
 <template>
-  <div class="v-model">
-    <span class="">子txt： {{ value }}</span>
-    <button @click="change">点击</button>
-  </div>
+    <div class="v-model">
+        <span class="">子txt： {{ value }}</span>
+        <button @click="change">点击</button>
+    </div>
 </template>
 
 <script>

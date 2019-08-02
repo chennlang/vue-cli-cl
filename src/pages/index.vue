@@ -1,7 +1,7 @@
 <template>
-  <div class="index-page">
-    index
-  </div>
+    <div class="index-page">
+        index
+    </div>
 </template>
 
 <script>
